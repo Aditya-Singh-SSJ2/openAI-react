@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### MAC BOOK
+
+Project Open AI
+———
+
+# installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# download and install Node.js (you may need to restart the terminal)
+nvm install 20
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v20.15.0`
+
+# verifies the right NPM version is in the environment
+npm -v # should print `10.7.0`  https://nodejs.org/en/download/package-manager  https://stackoverflow.com/questions/16904658/node-version-manager-install-nvm-command-not-found I think you missed this step:
+source ~/.nvm/nvm.sh
+
+———
+npm install
+
+———
+npx create-react-app my-app
+npm install openai
+
+Local environment variable in react: https://stackoverflow.com/questions/49108136/importing-env-variable-react-front-end
